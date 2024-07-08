@@ -80,7 +80,7 @@ class TextBox extends Box
 
     protected function generateModifier(string $text, Point $position = new Point()): CustomTextModifier
     {
-        return CustomTextModifier::buildSpecialized(
+        return new CustomTextModifier(
             new TextModifier(
                 $text,
                 $position,
