@@ -1,5 +1,5 @@
 {
-    "name": "simonhamp/the-og",
+    "name": "broqit/the-og",
     "description": "OpenGraph Image Generator for PHP",
     "type": "library",
     "require": {
